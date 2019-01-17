@@ -1,0 +1,7 @@
+n=input("请输入一个小于等于五位的正整数:")
+a=len(n)
+list1=list(n)
+list1.reverse()
+c=''.join(list1)
+print(a)
+print(c)
