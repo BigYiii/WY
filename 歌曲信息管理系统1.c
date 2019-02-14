@@ -264,23 +264,23 @@ void Run()
         else
 		{
             switch(button_1)
-			{                    //switch
-            case 1:
+			{                    
+            case 1:                 //输入"1"进入录入模块
 				add_record();
-				break;       //输入"1"进入录入模块
-            case 2:
+				break;                
+            case 2:                //输入"2"进入删除模块
 			    delete_record();
-		        break;    //输入"2"进入删除模块
-            case 3:
+		        break;    
+            case 3:               //输入"3"进入浏览模块
 				scan_record();
-				break;      //输入"3"进入浏览模块
-            case 4:
+				break;      
+            case 4:              //输入"4"进入查找模块
 				search_record();
-				break;    //输入"4"进入查找模块
-            case 5:
+				break;   
+            case 5:             //输入"4"进入查找模块
 				sort_record();
-				break;      //输入"5"进入排序模块
-            default:                         //输入错误重新进入菜单
+				break;      
+            default:                  //输入错误重新进入菜单
                 printf("请输入0-5之间的数字！\n");
                 system("pause");
                 break;
